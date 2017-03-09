@@ -13,3 +13,7 @@ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/scrip
 apt-get install gitlab-ce
 gitlab-ctl reconfigure
 
+#	configure git
+git config --global user.email "shawnye90@163.com"
+git config --global user.name "Shawn Ye"
+
